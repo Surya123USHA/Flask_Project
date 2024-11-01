@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - MyBank</title>
+    <link rel="stylesheet" href="/static/css/dash.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Welcome</h1>
+            <p>Account Dashboard</p>
+        </header>
+        
+        <section class="account-overview">
+            <h2>Account Overview</h2>
+            <p><strong>Account Number:</strong>{{user}}</p>
+            <p><strong>Available Balance:</strong>{{user}}</p>
+        </section>
+
+        <section class="quick-actions">
+            <h2>Quick Actions</h2>
+            <div class="actions">
+                <a href="deposit" class="action-button">Deposit</a>
+                <a href="balance" class="action-button">Balance</a>
+                <a href="statement" class="action-button">View Statements</a>
+                <a href="transfer" class="action-button">Transfer</a>
+                <a href="support" class="action-button">Customer Support</a>
+                <a href="services" class="action-button">Services</a>
+            </div>
+        </section>
+
+        <section class="recent-transactions">
+            <div class="actions">
+                <p>If You Want to Contact Us using Via Email: example@gmail.com</p>
+                <br>
+
+                <a href="contact">Contact Us</a>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 MyBank. All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </footer>
+
+    </div>
+</body>
+</html>

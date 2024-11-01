@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.balance-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.balance-info {
+    margin-bottom: 30px;
+}
+
+.balance-info h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.balance-info .balance-amount {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.recent-transactions h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table thead th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr td {
+    padding: 10px;
+    text-align: center;
+    color: #555;
+}
+
+table tbody tr td:nth-child(3) {
+    color: #4CAF50;
+}
+
+table tbody tr td:nth-child(4) {
+    font-weight: bold;
+    color: #333;
+}
